@@ -46,6 +46,11 @@ header {
     font-weight: 700;
 }
 
+.logo-img {
+    width: 60px;
+    height: auto;
+}
+
 span {
     color: var(--main-color);
 }
@@ -204,20 +209,20 @@ header.sticky {
     color: var(--main-color);
 }
 
-.holiday {
+.principal {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 9rem;
 }
 
-.holiday-img img {
+.principal-img img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.holiday-text h5 {
+.principal-text h5 {
     font-size: 22px;
     font-weight: 600;
     color: var(--main-color);
@@ -226,14 +231,14 @@ header.sticky {
     margin-bottom: 20px;
 }
 
-.holiday-text h2 {
+.principal-text h2 {
     font-size: var(--h2-font);
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 25px;
 }
 
-.holiday-text p {
+.principal-text p {
     font-size: var(--p-font);
     font-weight: 500;
     line-height: 30px;
@@ -250,7 +255,7 @@ header.sticky {
     font-weight: 800;
 }
 
-.tour-content {
+.esparcimiento-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
@@ -300,20 +305,20 @@ header.sticky {
     margin-top: 4rem;
 }
 
-.culture {
+.especificaciones {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 9rem;
 }
 
-.culture-img img {
+.especificaciones-img img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.culture-text h5 {
+.especificaciones-text h5 {
     font-size: 22px;
     font-weight: 600;
     color: var(--main-color);
@@ -322,14 +327,14 @@ header.sticky {
     margin-bottom: 20px;
 }
 
-.culture-text h2 {
+.especificaciones-text h2 {
     font-size: var(--h2-font);
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 25px;
 }
 
-.culture-text p {
+.especificaciones-text p {
     font-size: var(--p-font);
     font-weight: 500;
     line-height: 30px;
@@ -475,10 +480,10 @@ header.sticky {
     .feature-content {
         gap: 1.5rem;
     }
-    .holiday {
+    .principal {
         gap: 3rem;
     }
-    .Culture {
+    .especificaciones {
         gap: 3rem;
     }
 
@@ -514,10 +519,10 @@ header.sticky {
 }
 
 @media (max-width: 800px) {
-    .holiday {
+    .principal {
         grid-template-columns: 1fr;
     }
-    .Culture {
+    .especificaciones {
         grid-template-columns: 1fr;
     }
     .newsletter-content {
